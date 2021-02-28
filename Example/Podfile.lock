@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../GlovoViewFramework/"
 
 SPEC CHECKSUMS:
-  GlovoViewFramework: 1435f1e857475df5f60107fa0773fb59d610d178
+  GlovoViewFramework: c374f25b97da916cd5bc2e0137dfa32103abc374
 
 PODFILE CHECKSUM: 8897388285704efe56362aae2376152625418e7d
 

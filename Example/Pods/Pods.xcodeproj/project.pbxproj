@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0340183D9A116ECC4CE0B707D7EEE5D0 /* GlovoViewFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA13E17543F639002816DCD8ED21BF13 /* GlovoViewFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0340183D9A116ECC4CE0B707D7EEE5D0 /* GlovoViewFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9AF15EAA884251581CFC7B37097D44 /* GlovoViewFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		141008E6EB0D071FD45568C6440043B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3F9E876AD55E759EB999DA83735BBCA3 /* GlovoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AB90156BB61D3E9293C59600CF7467 /* GlovoItem.swift */; };
-		4F3C1F2FAC30AAA6188B1DD5B0982B76 /* GlovoViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FD427838EDC76580C4EBAF585CD7223F /* GlovoViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E08D5C880449AD999630B7F9B53B3B9 /* GlovoViewFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1263ED47611AADC7C68408E7C589D5 /* GlovoViewFramework-dummy.m */; };
+		3F9E876AD55E759EB999DA83735BBCA3 /* GlovoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91F076DEF3F90D3B1EF0481274B74D3 /* GlovoItem.swift */; };
+		4F3C1F2FAC30AAA6188B1DD5B0982B76 /* GlovoViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A265D85401BED7F29A56D47CC0964AEF /* GlovoViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E08D5C880449AD999630B7F9B53B3B9 /* GlovoViewFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3849F24B4DA607349FD9CEC91108CF /* GlovoViewFramework-dummy.m */; };
 		A34AF3CFA3372EBAC9DF519E7A62F168 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBC99B38347036912246934E39BB8EAF /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		D3E55418BEFB84145477490E7EF01D29 /* GlovoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964EEAC7375AB40B28514317BA65ED7 /* GlovoView.swift */; };
-		DF66067E25503EEF8A3596A441B182CE /* RadialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777813AF9F591977D53F8A9CAAEDE79D /* RadialMenu.swift */; };
+		D3E55418BEFB84145477490E7EF01D29 /* GlovoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23050AA3EE5E2A31AE3E486B17A7C8E /* GlovoView.swift */; };
+		DF66067E25503EEF8A3596A441B182CE /* RadialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41837FE24F7D069C1878552F7FBF97 /* RadialMenu.swift */; };
 		F0F2AD0DD6577D8E4856330C5310D226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		706D7954A6D7512F8477A0B6F2501C23 /* PBXContainerItemProxy */ = {
+		352604D4E6A177B4B67E377E184ECCCA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,32 +30,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D1263ED47611AADC7C68408E7C589D5 /* GlovoViewFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GlovoViewFramework-dummy.m"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		2837543FFBBF53E2EE7B365659B3888B /* GlovoViewFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GlovoViewFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		276E7951267885C8EC138BBD282990B5 /* GlovoViewFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlovoViewFramework-prefix.pch"; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		3F41837FE24F7D069C1878552F7FBF97 /* RadialMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialMenu.swift; path = GlovoViewFramework/RadialMenu.swift; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A30F26E1A91F43661D0EB75C2C5F20D /* GlovoViewFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlovoViewFramework-prefix.pch"; sourceTree = "<group>"; };
-		6964EEAC7375AB40B28514317BA65ED7 /* GlovoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlovoView.swift; path = GlovoViewFramework/GlovoView.swift; sourceTree = "<group>"; };
-		6A695B62811F3896AE2FD0D8998ADADD /* GlovoViewFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GlovoViewFramework.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		777813AF9F591977D53F8A9CAAEDE79D /* RadialMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialMenu.swift; path = GlovoViewFramework/RadialMenu.swift; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		78AB90156BB61D3E9293C59600CF7467 /* GlovoItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlovoItem.swift; path = GlovoViewFramework/GlovoItem.swift; sourceTree = "<group>"; };
+		815EABD3C9C388FA4DD6F36324EBE795 /* GlovoViewFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GlovoViewFramework-Info.plist"; sourceTree = "<group>"; };
+		88F58BBF00331CBE918B3A1D6B776455 /* GlovoViewFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlovoViewFramework.release.xcconfig; sourceTree = "<group>"; };
 		927116C338521C2176F69B0C7577DAA7 /* GlovoViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GlovoViewFramework.framework; path = GlovoViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96BB90A36D3BA33CC23FFEC90D86852F /* GlovoViewFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlovoViewFramework.debug.xcconfig; sourceTree = "<group>"; };
-		98C60E6B69A293167F0AE6DDA3C0FDC3 /* GlovoViewFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GlovoViewFramework-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5C2EEBD5F58D8E01ED06EAAF43F760A /* GlovoViewFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlovoViewFramework.release.xcconfig; sourceTree = "<group>"; };
+		A23050AA3EE5E2A31AE3E486B17A7C8E /* GlovoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlovoView.swift; path = GlovoViewFramework/GlovoView.swift; sourceTree = "<group>"; };
+		A265D85401BED7F29A56D47CC0964AEF /* GlovoViewFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GlovoViewFramework.h; path = GlovoViewFramework/GlovoViewFramework.h; sourceTree = "<group>"; };
+		A85046C647A015CE7C3DCD37BD86D441 /* GlovoViewFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GlovoViewFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A91F076DEF3F90D3B1EF0481274B74D3 /* GlovoItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlovoItem.swift; path = GlovoViewFramework/GlovoItem.swift; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C8B94EE79B965C7CFFB7BBCFFF1BBA92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B9D042C6DEBEDF0504950F2E620EDF93 /* GlovoViewFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlovoViewFramework.debug.xcconfig; sourceTree = "<group>"; };
+		BE3849F24B4DA607349FD9CEC91108CF /* GlovoViewFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GlovoViewFramework-dummy.m"; sourceTree = "<group>"; };
+		CC9AF15EAA884251581CFC7B37097D44 /* GlovoViewFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlovoViewFramework-umbrella.h"; sourceTree = "<group>"; };
+		D3D40AF10A85AE27A1C23C93693C6531 /* GlovoViewFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GlovoViewFramework.modulemap; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		EA13E17543F639002816DCD8ED21BF13 /* GlovoViewFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlovoViewFramework-umbrella.h"; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FD427838EDC76580C4EBAF585CD7223F /* GlovoViewFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GlovoViewFramework.h; path = GlovoViewFramework/GlovoViewFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +77,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0435C8E7289CABB7345C66927E8D3886 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3D40AF10A85AE27A1C23C93693C6531 /* GlovoViewFramework.modulemap */,
+				BE3849F24B4DA607349FD9CEC91108CF /* GlovoViewFramework-dummy.m */,
+				815EABD3C9C388FA4DD6F36324EBE795 /* GlovoViewFramework-Info.plist */,
+				276E7951267885C8EC138BBD282990B5 /* GlovoViewFramework-prefix.pch */,
+				CC9AF15EAA884251581CFC7B37097D44 /* GlovoViewFramework-umbrella.h */,
+				B9D042C6DEBEDF0504950F2E620EDF93 /* GlovoViewFramework.debug.xcconfig */,
+				88F58BBF00331CBE918B3A1D6B776455 /* GlovoViewFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/GlovoViewFramework";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A65176E1E44CCF7787C692AFEBB293E /* GlovoViewFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A91F076DEF3F90D3B1EF0481274B74D3 /* GlovoItem.swift */,
+				A23050AA3EE5E2A31AE3E486B17A7C8E /* GlovoView.swift */,
+				A265D85401BED7F29A56D47CC0964AEF /* GlovoViewFramework.h */,
+				3F41837FE24F7D069C1878552F7FBF97 /* RadialMenu.swift */,
+				C58408150D309CD9F1816F608EFC4B0B /* Pod */,
+				0435C8E7289CABB7345C66927E8D3886 /* Support Files */,
+			);
+			name = GlovoViewFramework;
+			path = ../../GlovoViewFramework;
 			sourceTree = "<group>";
 		};
 		8F9888F0A2960BFFDED22C63C848A5E0 /* Products */ = {
@@ -93,15 +121,6 @@
 				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		915E8CDEF2DC50B9942C0A9F17BB6CED /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2837543FFBBF53E2EE7B365659B3888B /* GlovoViewFramework.podspec */,
-				C8B94EE79B965C7CFFB7BBCFFF1BBA92 /* LICENSE */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -121,19 +140,12 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		C51FC205FEBDC5E7BFFB635D1E3E1B35 /* Support Files */ = {
+		C58408150D309CD9F1816F608EFC4B0B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6A695B62811F3896AE2FD0D8998ADADD /* GlovoViewFramework.modulemap */,
-				1D1263ED47611AADC7C68408E7C589D5 /* GlovoViewFramework-dummy.m */,
-				98C60E6B69A293167F0AE6DDA3C0FDC3 /* GlovoViewFramework-Info.plist */,
-				4A30F26E1A91F43661D0EB75C2C5F20D /* GlovoViewFramework-prefix.pch */,
-				EA13E17543F639002816DCD8ED21BF13 /* GlovoViewFramework-umbrella.h */,
-				96BB90A36D3BA33CC23FFEC90D86852F /* GlovoViewFramework.debug.xcconfig */,
-				A5C2EEBD5F58D8E01ED06EAAF43F760A /* GlovoViewFramework.release.xcconfig */,
+				A85046C647A015CE7C3DCD37BD86D441 /* GlovoViewFramework.podspec */,
 			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/GlovoViewFramework";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
@@ -147,7 +159,7 @@
 		CE6179BC4EDFC6C847732F202B3A6F6F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E792481A9EFEF9FFB6658041D3D56A7F /* GlovoViewFramework */,
+				7A65176E1E44CCF7787C692AFEBB293E /* GlovoViewFramework */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -169,20 +181,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E792481A9EFEF9FFB6658041D3D56A7F /* GlovoViewFramework */ = {
-			isa = PBXGroup;
-			children = (
-				78AB90156BB61D3E9293C59600CF7467 /* GlovoItem.swift */,
-				6964EEAC7375AB40B28514317BA65ED7 /* GlovoView.swift */,
-				FD427838EDC76580C4EBAF585CD7223F /* GlovoViewFramework.h */,
-				777813AF9F591977D53F8A9CAAEDE79D /* RadialMenu.swift */,
-				915E8CDEF2DC50B9942C0A9F17BB6CED /* Pod */,
-				C51FC205FEBDC5E7BFFB635D1E3E1B35 /* Support Files */,
-			);
-			name = GlovoViewFramework;
-			path = ../../GlovoViewFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +218,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1E904F2AB2399B4B8C0A68638A4C7DEF /* PBXTargetDependency */,
+				03D04A3440FEC98F3E47E3EC4FDAD276 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
@@ -313,18 +311,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E904F2AB2399B4B8C0A68638A4C7DEF /* PBXTargetDependency */ = {
+		03D04A3440FEC98F3E47E3EC4FDAD276 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GlovoViewFramework;
 			target = F591820EDE0E5BC15A8CD70F0BA4AFE2 /* GlovoViewFramework */;
-			targetProxy = 706D7954A6D7512F8477A0B6F2501C23 /* PBXContainerItemProxy */;
+			targetProxy = 352604D4E6A177B4B67E377E184ECCCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		508EB463F53F2CB907B4E86D46CF52B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5C2EEBD5F58D8E01ED06EAAF43F760A /* GlovoViewFramework.release.xcconfig */;
+			baseConfigurationReference = 88F58BBF00331CBE918B3A1D6B776455 /* GlovoViewFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -563,7 +561,7 @@
 		};
 		7DAAB799A6C0068E2CF26E10534991D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96BB90A36D3BA33CC23FFEC90D86852F /* GlovoViewFramework.debug.xcconfig */;
+			baseConfigurationReference = B9D042C6DEBEDF0504950F2E620EDF93 /* GlovoViewFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

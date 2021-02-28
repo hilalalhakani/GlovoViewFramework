@@ -4,7 +4,10 @@
   "summary": "A basic replica of Glovo Home animation",
   "description": "the project relies on ALRadialMenu to get the circular layout , and it contains the same animation as Glovo's home animation",
   "homepage": "https://github.com/hilalalhakani/GlovoViewFramework",
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
     "Hilal Al Hakkani": "hilalalhakani@gmail.com"
   },

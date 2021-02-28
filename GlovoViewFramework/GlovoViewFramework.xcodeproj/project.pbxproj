@@ -11,6 +11,7 @@
 		C93236BF25EACA9E000EC201 /* GlovoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93236BC25EACA9D000EC201 /* GlovoView.swift */; };
 		C93236C025EACA9E000EC201 /* RadialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93236BD25EACA9E000EC201 /* RadialMenu.swift */; };
 		C93236C425EACDFA000EC201 /* GlovoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93236C325EACDFA000EC201 /* GlovoItem.swift */; };
+		C932373725EC0ABE000EC201 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C932373625EC0ABE000EC201 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C93236BC25EACA9D000EC201 /* GlovoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlovoView.swift; sourceTree = "<group>"; };
 		C93236BD25EACA9E000EC201 /* RadialMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialMenu.swift; sourceTree = "<group>"; };
 		C93236C325EACDFA000EC201 /* GlovoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlovoItem.swift; sourceTree = "<group>"; };
+		C932373625EC0ABE000EC201 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C93236B125EACA2D000EC201 /* GlovoViewFramework */ = {
 			isa = PBXGroup;
 			children = (
+				C932373625EC0ABE000EC201 /* LICENSE */,
 				C93236C325EACDFA000EC201 /* GlovoItem.swift */,
 				C93236BC25EACA9D000EC201 /* GlovoView.swift */,
 				C93236BD25EACA9E000EC201 /* RadialMenu.swift */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C932373725EC0ABE000EC201 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DONT_GENERATE_INFOPLIST_FILE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -287,6 +292,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Home.GlovoViewFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -298,8 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DONT_GENERATE_INFOPLIST_FILE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -312,6 +320,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Home.GlovoViewFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
