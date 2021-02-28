@@ -16,7 +16,6 @@
 /* Begin PBXFileReference section */
 		C93236AF25EACA2D000EC201 /* GlovoViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlovoViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93236B225EACA2D000EC201 /* GlovoViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlovoViewFramework.h; sourceTree = "<group>"; };
-		C93236B325EACA2D000EC201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C93236BC25EACA9D000EC201 /* GlovoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlovoView.swift; sourceTree = "<group>"; };
 		C93236BD25EACA9E000EC201 /* RadialMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialMenu.swift; sourceTree = "<group>"; };
 		C93236C325EACDFA000EC201 /* GlovoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlovoItem.swift; sourceTree = "<group>"; };
@@ -56,7 +55,6 @@
 				C93236BC25EACA9D000EC201 /* GlovoView.swift */,
 				C93236BD25EACA9E000EC201 /* RadialMenu.swift */,
 				C93236B225EACA2D000EC201 /* GlovoViewFramework.h */,
-				C93236B325EACA2D000EC201 /* Info.plist */,
 			);
 			path = GlovoViewFramework;
 			sourceTree = "<group>";
@@ -277,10 +275,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DONT_GENERATE_INFOPLIST_FILE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GlovoViewFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,10 +300,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DONT_GENERATE_INFOPLIST_FILE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GlovoViewFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

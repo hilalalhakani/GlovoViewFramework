@@ -1,0 +1,16 @@
+PODS:
+  - GlovoViewFramework (1.0.0)
+
+DEPENDENCIES:
+  - GlovoViewFramework (from `../GlovoViewFramework/`)
+
+EXTERNAL SOURCES:
+  GlovoViewFramework:
+    :path: "../GlovoViewFramework/"
+
+SPEC CHECKSUMS:
+  GlovoViewFramework: 1435f1e857475df5f60107fa0773fb59d610d178
+
+PODFILE CHECKSUM: 8897388285704efe56362aae2376152625418e7d
+
+COCOAPODS: 1.10.1

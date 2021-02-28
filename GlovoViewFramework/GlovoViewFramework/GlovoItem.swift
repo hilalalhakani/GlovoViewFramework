@@ -8,11 +8,11 @@
 import Foundation
 import UIKit
 
-struct GlovoItem {
+public struct GlovoItem {
     
-   var image:UIImage
-   var text:String
-   var subItems:[GlovoItem]?
-   var controller:UIViewController.Type?
+    public var image:UIImage
+    public var text:String
+    public var subItems:[GlovoItem]?
+    public var controller:UIViewController.Type?
     
 }

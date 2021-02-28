@@ -19,10 +19,10 @@ public class ALRadialMenu: UIView {
     private var animationOrigin: CGPoint!
     
     // Needs calculation
-    let bubbleSize = 110
+    private let bubbleSize = 110
     
-    var didPressButton:((_ center:GlovoView)->Void)?
-    var centerButton:GlovoView?
+    public var didPressButton:((_ center:GlovoView)->Void)?
+    private var centerButton:GlovoView?
     
     private var glovoViews = [GlovoView](){
         didSet {
