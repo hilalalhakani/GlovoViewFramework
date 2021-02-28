@@ -12,7 +12,7 @@ import GlovoViewFramework
 class HomeViewController: UIViewController,UIGestureRecognizerDelegate {
     
     @IBOutlet weak var wheelView:ALRadialMenu!
-    @IBOutlet weak var bottomView:MyRoundBottomView!
+    //@IBOutlet weak var bottomView:MyRoundBottomView!
     
     var didAppear = false
 
@@ -34,11 +34,11 @@ class HomeViewController: UIViewController,UIGestureRecognizerDelegate {
         
         wheelView.generateButtons(items: items, centerItem: GlovoItem(image:#imageLiteral(resourceName: "CenterLogo"), text: "Anything"))
         wheelView.didPressButton = { [weak self] (glovoView) in
-            self?.presenter?.navigateToBubbleDetails(item: glovoView)
+           // self?.presenter?.navigateToBubbleDetails(item: glovoView)
         }
         
-        bottomView.isUserInteractionEnabled = true
-        bottomView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(didPressBottomView)))
+  //      bottomView.isUserInteractionEnabled = true
+   //     bottomView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(didPressBottomView)))
     }
     
     
@@ -74,16 +74,16 @@ class HomeViewController: UIViewController,UIGestureRecognizerDelegate {
    
     
     @objc func openProfile(sender:UIBarButtonItem) {
-        presenter?.navigateToProfile()
+     //   presenter?.navigateToProfile()
     }
     
     
     @objc func openNotifications(sender:UIBarButtonItem) {
-        presenter?.navigateToNotifications()
+      //  presenter?.navigateToNotifications()
     }
     
     @IBAction func didPressBottomView(){
-        presenter?.navigateToChat()
+    //    presenter?.navigateToChat()
     }
     
     
