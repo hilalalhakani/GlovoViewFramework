@@ -118,7 +118,7 @@ public class ALRadialMenu: UIView {
     
   
     
-    func generateButtons(items:[GlovoItem],centerItem:GlovoItem?){
+    public func generateButtons(items:[GlovoItem],centerItem:GlovoItem?){
         self.radius = Double(self.frame.width/2) - 20
         if centerItem != nil {
             centerButton = GlovoView(frame: CGRect(x: 0, y:0, width: bubbleSize + 20, height: bubbleSize + 20),glovoItem:centerItem!)
@@ -133,7 +133,7 @@ public class ALRadialMenu: UIView {
     }
     
     
-    @objc func didTapView(sender:UITapGestureRecognizer){
+    @objc public func didTapView(sender:UITapGestureRecognizer){
         didPressButton?(sender.view as! GlovoView)
     }
     

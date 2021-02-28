@@ -11,10 +11,10 @@ import UIKit
 
 public class GlovoView:UIView {
     
-    var originalCenter : CGPoint = .zero
-    let imageView = UIImageView()
-    let label = UILabel()
-    var glovoItem:GlovoItem?
+    public var originalCenter : CGPoint = .zero
+    public let imageView = UIImageView()
+    public let label = UILabel()
+    public var glovoItem:GlovoItem?
     weak var attachementBehavior:UIAttachmentBehavior!
     
     init(frame:CGRect,glovoItem:GlovoItem) {

@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C93236D425EBDB9C000EC201 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93236D325EBDB9C000EC201 /* AppDelegate.swift */; };
-		C93236D625EBDB9C000EC201 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93236D525EBDB9C000EC201 /* SceneDelegate.swift */; };
-		C93236D825EBDB9C000EC201 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93236D725EBDB9C000EC201 /* ViewController.swift */; };
 		C93236DB25EBDB9C000EC201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93236D925EBDB9C000EC201 /* Main.storyboard */; };
 		C93236DD25EBDB9F000EC201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93236DC25EBDB9F000EC201 /* Assets.xcassets */; };
 		C93236E025EBDB9F000EC201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93236DE25EBDB9F000EC201 /* LaunchScreen.storyboard */; };
 		C93236EC25EBDF77000EC201 /* GlovoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93236EB25EBDF77000EC201 /* GlovoItems.swift */; };
+		C932371025EBF48B000EC201 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932370725EBF48B000EC201 /* HomePresenter.swift */; };
+		C932371125EBF48B000EC201 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932370925EBF48B000EC201 /* HomeViewController.swift */; };
+		C932371225EBF48B000EC201 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932370B25EBF48B000EC201 /* HomeInteractor.swift */; };
+		C932371325EBF48B000EC201 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932370C25EBF48B000EC201 /* HomeProtocols.swift */; };
+		C932371425EBF48B000EC201 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932370E25EBF48B000EC201 /* HomeRouter.swift */; };
+		C932371B25EBF569000EC201 /* RoundBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932371A25EBF569000EC201 /* RoundBottomView.swift */; };
+		C932371F25EBF5B6000EC201 /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932371E25EBF5B6000EC201 /* BubbleTransition.swift */; };
+		C932372225EBF667000EC201 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932372125EBF667000EC201 /* Storyboarded.swift */; };
+		C932372625EBF6EB000EC201 /* BubbleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932372525EBF6EB000EC201 /* BubbleDetailsViewController.swift */; };
+		C932373025EBFFF1000EC201 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932372F25EBFFF1000EC201 /* CircleView.swift */; };
 		FFEBBB390ABEA37E5DFA0391 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22C8E3B5E9B36A846C24608 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +30,21 @@
 		C67F3F428E5C936890A93A60 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C93236D025EBDB9B000EC201 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93236D325EBDB9C000EC201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C93236D525EBDB9C000EC201 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C93236D725EBDB9C000EC201 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C93236DA25EBDB9C000EC201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C93236DC25EBDB9F000EC201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93236DF25EBDB9F000EC201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C93236E125EBDB9F000EC201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C93236EB25EBDF77000EC201 /* GlovoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlovoItems.swift; sourceTree = "<group>"; };
+		C932370725EBF48B000EC201 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C932370925EBF48B000EC201 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C932370B25EBF48B000EC201 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C932370C25EBF48B000EC201 /* HomeProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		C932370E25EBF48B000EC201 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		C932371A25EBF569000EC201 /* RoundBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBottomView.swift; sourceTree = "<group>"; };
+		C932371E25EBF5B6000EC201 /* BubbleTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTransition.swift; sourceTree = "<group>"; };
+		C932372125EBF667000EC201 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		C932372525EBF6EB000EC201 /* BubbleDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleDetailsViewController.swift; sourceTree = "<group>"; };
+		C932372F25EBFFF1000EC201 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		E22C8E3B5E9B36A846C24608 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,16 +98,96 @@
 		C93236D225EBDB9B000EC201 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				C932371925EBF55D000EC201 /* Libraries */,
+				C932370225EBF453000EC201 /* ViewControllers */,
 				C93236D325EBDB9C000EC201 /* AppDelegate.swift */,
-				C93236D525EBDB9C000EC201 /* SceneDelegate.swift */,
-				C93236D725EBDB9C000EC201 /* ViewController.swift */,
 				C93236D925EBDB9C000EC201 /* Main.storyboard */,
 				C93236DC25EBDB9F000EC201 /* Assets.xcassets */,
 				C93236DE25EBDB9F000EC201 /* LaunchScreen.storyboard */,
 				C93236E125EBDB9F000EC201 /* Info.plist */,
-				C93236EB25EBDF77000EC201 /* GlovoItems.swift */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		C932370225EBF453000EC201 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C932372425EBF6EB000EC201 /* BubbleDetails */,
+				C932370325EBF48B000EC201 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C932370325EBF48B000EC201 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C932370425EBF48B000EC201 /* Entity */,
+				C932370625EBF48B000EC201 /* Presenter */,
+				C932370825EBF48B000EC201 /* View */,
+				C932370A25EBF48B000EC201 /* Interactor */,
+				C932370C25EBF48B000EC201 /* HomeProtocols.swift */,
+				C932370D25EBF48B000EC201 /* Router */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C932370425EBF48B000EC201 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C93236EB25EBDF77000EC201 /* GlovoItems.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C932370625EBF48B000EC201 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C932370725EBF48B000EC201 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C932370825EBF48B000EC201 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C932370925EBF48B000EC201 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C932370A25EBF48B000EC201 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C932370B25EBF48B000EC201 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C932370D25EBF48B000EC201 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C932370E25EBF48B000EC201 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C932371925EBF55D000EC201 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C932371A25EBF569000EC201 /* RoundBottomView.swift */,
+				C932371E25EBF5B6000EC201 /* BubbleTransition.swift */,
+				C932372125EBF667000EC201 /* Storyboarded.swift */,
+				C932372F25EBFFF1000EC201 /* CircleView.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		C932372425EBF6EB000EC201 /* BubbleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C932372525EBF6EB000EC201 /* BubbleDetailsViewController.swift */,
+			);
+			path = BubbleDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,10 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C932373025EBFFF1000EC201 /* CircleView.swift in Sources */,
+				C932371F25EBF5B6000EC201 /* BubbleTransition.swift in Sources */,
+				C932371B25EBF569000EC201 /* RoundBottomView.swift in Sources */,
 				C93236EC25EBDF77000EC201 /* GlovoItems.swift in Sources */,
-				C93236D825EBDB9C000EC201 /* ViewController.swift in Sources */,
 				C93236D425EBDB9C000EC201 /* AppDelegate.swift in Sources */,
-				C93236D625EBDB9C000EC201 /* SceneDelegate.swift in Sources */,
+				C932371225EBF48B000EC201 /* HomeInteractor.swift in Sources */,
+				C932371325EBF48B000EC201 /* HomeProtocols.swift in Sources */,
+				C932371025EBF48B000EC201 /* HomePresenter.swift in Sources */,
+				C932372225EBF667000EC201 /* Storyboarded.swift in Sources */,
+				C932371125EBF48B000EC201 /* HomeViewController.swift in Sources */,
+				C932371425EBF48B000EC201 /* HomeRouter.swift in Sources */,
+				C932372625EBF6EB000EC201 /* BubbleDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

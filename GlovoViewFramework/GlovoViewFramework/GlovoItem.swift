@@ -15,4 +15,11 @@ public struct GlovoItem {
     public var subItems:[GlovoItem]?
     public var controller:UIViewController.Type?
     
+    public init(image: UIImage, text: String, subItems: [GlovoItem]? = nil, controller: UIViewController.Type? = nil) {
+        self.image = image
+        self.text = text
+        self.subItems = subItems
+        self.controller = controller
+    }
+    
 }

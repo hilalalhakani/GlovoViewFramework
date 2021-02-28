@@ -1,24 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Home View Controller-->
+        <scene sceneID="VhC-Cm-RzK">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2LY-8e-oEO" customClass="HomeViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bkc-AE-fVA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="24j-Vz-tpE" customClass="RoundBottomView" customModule="Example" customModuleProvider="target">
+                                <rect key="frame" x="-120" y="761.5" width="654" height="134.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2v-VC-rMM">
+                                        <rect key="frame" x="297" y="34.5" width="60" height="66"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Ujg-y7-viT"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="chat"/>
+                                        <connections>
+                                            <action selector="didPressBottomView" destination="2LY-8e-oEO" eventType="touchUpInside" id="acJ-C3-Qbp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="t2v-VC-rMM" firstAttribute="centerX" secondItem="24j-Vz-tpE" secondAttribute="centerX" id="Rnk-AX-pHn"/>
+                                    <constraint firstItem="t2v-VC-rMM" firstAttribute="centerY" secondItem="24j-Vz-tpE" secondAttribute="centerY" id="mcF-mg-EBf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8nu-2J-Vwx" customClass="ALRadialMenu" customModule="GlovoViewFramework">
+                                <rect key="frame" x="50" y="94" width="314" height="652.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DZY-kq-u3G"/>
+                        <color key="backgroundColor" red="0.39148405190000002" green="0.66361445190000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="24j-Vz-tpE" firstAttribute="height" secondItem="bkc-AE-fVA" secondAttribute="height" multiplier="0.15" id="4nE-30-CFX"/>
+                            <constraint firstItem="DZY-kq-u3G" firstAttribute="trailing" secondItem="8nu-2J-Vwx" secondAttribute="trailing" constant="50" id="Axp-nQ-rXT"/>
+                            <constraint firstItem="24j-Vz-tpE" firstAttribute="leading" secondItem="DZY-kq-u3G" secondAttribute="leading" constant="-120" id="FKd-T8-DCM"/>
+                            <constraint firstItem="8nu-2J-Vwx" firstAttribute="top" secondItem="DZY-kq-u3G" secondAttribute="top" constant="50" id="L2I-a1-fBR"/>
+                            <constraint firstItem="8nu-2J-Vwx" firstAttribute="leading" secondItem="DZY-kq-u3G" secondAttribute="leading" constant="50" id="NVO-aa-jiq"/>
+                            <constraint firstItem="24j-Vz-tpE" firstAttribute="trailing" secondItem="DZY-kq-u3G" secondAttribute="trailing" constant="120" id="ah3-Su-hdK"/>
+                            <constraint firstItem="24j-Vz-tpE" firstAttribute="top" secondItem="8nu-2J-Vwx" secondAttribute="bottom" constant="15" id="mOp-GQ-yOo"/>
+                            <constraint firstAttribute="bottom" secondItem="24j-Vz-tpE" secondAttribute="bottom" id="xo8-Rx-dnF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bottomView" destination="24j-Vz-tpE" id="9Qo-pu-Sb2"/>
+                        <outlet property="wheelView" destination="8nu-2J-Vwx" id="Wql-sJ-Pau"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MWN-bb-PCL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1274" y="52"/>
+        </scene>
+        <!--Bubble Details View Controller-->
+        <scene sceneID="YBV-21-kN9">
+            <objects>
+                <viewController storyboardIdentifier="BubbleDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Rbu-Iq-Q3L" customClass="BubbleDetailsViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FUl-sG-5ks">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsS-pg-cF6" customClass="Circle" customModule="Example" customModuleProvider="target">
+                                <rect key="frame" x="-40" y="201" width="494" height="494"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dsS-pg-cF6" secondAttribute="height" multiplier="1:1" id="kxg-9g-SrC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="mainColor">
+                                        <color key="value" red="0.75845432280000002" green="0.86712807420000004" blue="0.99610430000000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d5C-KV-1qj" customClass="ALRadialMenu" customModule="GlovoViewFramework">
+                                <rect key="frame" x="70" y="221" width="274" height="354"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subjects" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCN-CU-zzp">
+                                <rect key="frame" x="172" y="655" width="70.5" height="21"/>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgS-4a-gSV">
+                                <rect key="frame" x="20" y="64" width="12" height="22"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="backBtn"/>
+                                <connections>
+                                    <action selector="backPressed" destination="Rbu-Iq-Q3L" eventType="touchUpInside" id="A3S-Qk-G4g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MP7-PB-jNg"/>
+                        <color key="backgroundColor" red="0.39134088160000002" green="0.6639434099" blue="0.99220222229999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="MP7-PB-jNg" firstAttribute="trailing" secondItem="d5C-KV-1qj" secondAttribute="trailing" constant="70" id="0ES-3O-qNN"/>
+                            <constraint firstItem="lgS-4a-gSV" firstAttribute="leading" secondItem="MP7-PB-jNg" secondAttribute="leading" constant="20" id="FWo-0N-8M9"/>
+                            <constraint firstItem="lgS-4a-gSV" firstAttribute="top" secondItem="MP7-PB-jNg" secondAttribute="top" constant="20" id="GEn-k9-1nm"/>
+                            <constraint firstItem="aCN-CU-zzp" firstAttribute="centerX" secondItem="d5C-KV-1qj" secondAttribute="centerX" id="Hck-k6-p2T"/>
+                            <constraint firstItem="dsS-pg-cF6" firstAttribute="leading" secondItem="MP7-PB-jNg" secondAttribute="leading" constant="-40" id="RgM-lw-rVq"/>
+                            <constraint firstItem="aCN-CU-zzp" firstAttribute="top" secondItem="dsS-pg-cF6" secondAttribute="bottom" constant="-40" id="T2n-XV-QYh"/>
+                            <constraint firstItem="MP7-PB-jNg" firstAttribute="trailing" secondItem="dsS-pg-cF6" secondAttribute="trailing" constant="-40" id="bRu-aj-90Q"/>
+                            <constraint firstItem="d5C-KV-1qj" firstAttribute="top" secondItem="dsS-pg-cF6" secondAttribute="top" constant="20" id="iW1-Bz-K9Z"/>
+                            <constraint firstItem="dsS-pg-cF6" firstAttribute="centerY" secondItem="FUl-sG-5ks" secondAttribute="centerY" id="nGm-De-2Bx"/>
+                            <constraint firstItem="aCN-CU-zzp" firstAttribute="top" secondItem="d5C-KV-1qj" secondAttribute="bottom" constant="80" id="pYo-AX-0oN"/>
+                            <constraint firstItem="d5C-KV-1qj" firstAttribute="leading" secondItem="MP7-PB-jNg" secondAttribute="leading" constant="70" id="qKI-XE-T9B"/>
+                            <constraint firstItem="dsS-pg-cF6" firstAttribute="centerX" secondItem="FUl-sG-5ks" secondAttribute="centerX" id="xcn-4s-wFi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="selectedItemLabel" destination="aCN-CU-zzp" id="sDD-K1-SkM"/>
+                        <outlet property="wheelView" destination="d5C-KV-1qj" id="c3d-0j-A3x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="78N-db-1Of" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2074" y="52"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backBtn" width="12" height="20"/>
+        <image name="chat" width="58" height="66"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

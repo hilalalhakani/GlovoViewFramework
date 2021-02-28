@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "WhatsApp Image 2020-09-20 at 3.38.17 PM.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
