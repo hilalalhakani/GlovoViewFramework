@@ -16,7 +16,7 @@ let items = [
                    subItems:[GlovoItem(image: #imageLiteral(resourceName: "Library"), text: "Library",controller: nil)]),
     
     
-    GlovoItem.init(image: #imageLiteral(resourceName: "News"), text: "News",controller: nil),
+    GlovoItem.init(image: #imageLiteral(resourceName: "News"), text: "News And Info",controller: nil),
  
     
     GlovoItem.init(image: #imageLiteral(resourceName: "dashBoard"), text: "Fees",controller: nil) ,
